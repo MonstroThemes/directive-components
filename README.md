@@ -1,7 +1,7 @@
 # Directive components #
 
 Allow writing highly-readable verbose markup. Transform this  
-```
+```jsx
 maybeGetSomething: function (){
     if(someCondition){
         return (
@@ -79,7 +79,7 @@ The keys of the object must be the strings used in the directive components, the
 
 ## List of directives ##
 
-* [Show](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/show/) shows or hides components
-* [Hide](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/hide/) hides or shows components
-* [DisplayAll](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/display-all/) displays and array of items, such as posts on an archive
-* [It](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/it/) combines all directives, so you don't have to import them indidually. Arguably improves/decreases readability.
+* [Show](https://bitbucket.org/) shows or hides components
+* [Hide](https://bitbucket.org/) hides or shows components
+* [DisplayAll](https://bitbucket.org/) displays and array of items, such as posts on an archive
+* [It](https://bitbucket.org/) combines all directives, so you don't have to import them individually. Arguably improves/decreases readability.
