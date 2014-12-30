@@ -52,6 +52,9 @@ These tools are intended for simple tasks. If you find yourself doing weird shin
 
 ##Usage##
 
+### Installation ###
+>npm install directive-components
+
 ### As a designer ###
 Take a look at the list of directives. Include the directives you'll be using at the top of your code, and then just use them according to the instructions. Try to write natural language-like sentences, this will make the code more readable.
 After you're done, give your code to a developer, he'll make the magic work.
