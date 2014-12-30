@@ -20,7 +20,7 @@ render: function (){
 }
 ```
 into this
-```
+```jsx
 <div>
     <h1>Some stuff</h1>
     <Show when="user is logged in and has unread messages">
@@ -29,7 +29,7 @@ into this
 </div>
 ```
 or this
-```
+```jsx
 <div>
     <h1>Some stuff</h1>
     <It isShownWhen="user is logged in and has unread messages">
@@ -38,7 +38,7 @@ or this
 </div>
 ```
 a more complex example:
-```
+```jsx
 <It isShownWhen="user is logged in">
     <It hasClass="monstro-unread" when="user has unread messages">
         <It hasClass="monstro-important" when="user has important unread messages">
@@ -59,7 +59,7 @@ After you're done, give your code to a developer, he'll make the magic work.
 ### As a developer ###
 A component that uses directive components must provide a _monstroLanguage_ object to the [child context](https://gist.github.com/simenbrekken/11253438).
 The keys of the object must be the strings used in the directive components, the values can be scalars or functions.
-```
+```js
 {
     childContextTypes: {
         monstroLanguage: React.PropTypes.object
