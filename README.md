@@ -76,10 +76,9 @@ The keys of the object must be the strings used in the directive components, the
 }
 ```
 
-
 ## List of directives ##
 
-* [Show](https://bitbucket.org/) shows or hides components
-* [Hide](https://bitbucket.org/) hides or shows components
-* [DisplayAll](https://bitbucket.org/) displays and array of items, such as posts on an archive
-* [It](https://bitbucket.org/) combines all directives, so you don't have to import them individually. Arguably improves/decreases readability.
+* [Show](https://github.com/MonstroThemes/directive-components/tree/master/show) shows or hides components
+* [Hide](https://github.com/MonstroThemes/directive-components/tree/master/hide) hides or shows components
+* [DisplayAll](https://github.com/MonstroThemes/directive-components/tree/master/display-all) displays and array of items, such as posts on an archive
+* [It](https://github.com/MonstroThemes/directive-components/tree/master/it) combines all directives, so you don't have to import them individually. Arguably improves/decreases readability.

@@ -21,4 +21,4 @@ once that's done, go crazy:
 </Show>
 ```
 
-_There's also an [It](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/it/) alternative_
+_There's also an [It](https://github.com/MonstroThemes/directive-components/tree/master/it) alternative_

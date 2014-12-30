@@ -6,7 +6,7 @@ Don't forget to require it:
 var It = require('directive-components/it').Component;
 ```
 
-## [Show](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/show/) ##
+## [Show](https://github.com/MonstroThemes/directive-components/tree/master/show/) ##
 ```
 #!jsx  
 <It isShownWhen="user is logged in">
@@ -18,7 +18,7 @@ var It = require('directive-components/it').Component;
 </It>
 ```
 
-## [Hide](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/hide/) ##
+## [Hide](https://github.com/MonstroThemes/directive-components/tree/master/hide/) ##
 ```
 #!jsx  
 <It isHiddenUnless="user is logged in">
@@ -30,7 +30,7 @@ var It = require('directive-components/it').Component;
 </It>
 ```
 
-## [DisplayAll](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/display-all/) ##
+## [DisplayAll](https://github.com/MonstroThemes/directive-components/tree/master/display-all/) ##
 ```
 #!jsx  
 <It displaysMany="posts in this category">

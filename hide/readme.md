@@ -4,13 +4,11 @@ Hides or displays components
 
 ## Usage ##
 Don't forget to require it:
-```
-#!js  
+```js  
 var Hide = require('directive-components/hide').Component;
 ```
 once that's done, go crazy:
-```
-#!jsx  
+```jsx  
 <Hide unless="user is logged in">
 	<span>Logout</span>
 </Hide>
@@ -20,4 +18,4 @@ once that's done, go crazy:
 </Hide>
 ```
 
-_There's also an [It](https://bitbucket.org/vasile_rusnac/nucleus-react/src/master/utils/directive-components/it/) alternative_
+_There's also an [It](https://github.com/MonstroThemes/directive-components/tree/master/it) alternative_
