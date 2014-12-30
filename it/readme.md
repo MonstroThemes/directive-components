@@ -1,14 +1,12 @@
 # It #
 Combines all directive components.  
 Don't forget to require it:
-```
-#!js  
+```js  
 var It = require('directive-components/it').Component;
 ```
 
 ## [Show](https://github.com/MonstroThemes/directive-components/tree/master/show/) ##
-```
-#!jsx  
+```jsx  
 <It isShownWhen="user is logged in">
 	<span>Logout</span>
 </It>
@@ -19,8 +17,7 @@ var It = require('directive-components/it').Component;
 ```
 
 ## [Hide](https://github.com/MonstroThemes/directive-components/tree/master/hide/) ##
-```
-#!jsx  
+```jsx  
 <It isHiddenUnless="user is logged in">
 	<span>Logout</span>
 </It>

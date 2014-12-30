@@ -4,14 +4,12 @@ Displays or hides components
 
 ## Usage ##
 Don't forget to require it:
-```
-#!js  
+```js  
 var Show = require('directive-components/show').Component;
 ```
 once that's done, go crazy:
 
-```
-#!jsx  
+```jsx  
 <Show when="user is logged in">
 	<span>Logout</span>
 </Show>
