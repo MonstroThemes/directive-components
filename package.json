@@ -1,0 +1,26 @@
+{
+  "name": "directive-components",
+  "version": "0.0.0",
+  "description": "A set of ReactJS components made for expressibility and readability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MonstroThemes/directive-components.git"
+  },
+  "keywords": [
+    "reactjs",
+    "components"
+  ],
+  "author": "Alexei Savca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonstroThemes/directive-components/issues"
+  },
+  "homepage": "https://github.com/MonstroThemes/directive-components",
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}
