@@ -28,8 +28,7 @@ var It = require('directive-components/it').Component;
 ```
 
 ## [DisplayAll](https://github.com/MonstroThemes/directive-components/tree/master/display-all/) ##
-```
-#!jsx  
+```jsx  
 <It displaysMany="posts in this category">
 	<div className="posts-container">
 		<h1 isShownWhenThereAreNo="posts in this category">No posts</h1>
