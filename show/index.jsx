@@ -1,6 +1,6 @@
 var React = require('react');
 var Translator = require('directive-components/translator');
-var Speak = {
+var Show = {
     displayName: "Show",
     mixins: [Translator],
     render (){
@@ -17,6 +17,6 @@ var Speak = {
 }
 
 module.exports = {
-    Class: Speak,
-    Component: React.createClass(Speak)
+    Class: Show,
+    Component: React.createClass(Show)
 }
