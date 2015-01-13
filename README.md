@@ -48,7 +48,7 @@ a more complex example:
 </It>
 ```
 ## Warning ##
-These tools are intended for simple tasks. If you find yourself doing weird shinanigans with directive components for some task, you probably should just abondon the idea and solve the problem old school.
+These tools are intended for simple tasks. If you find yourself doing weird shinanigans with directive components for some task, you probably should just abandon the idea and solve the problem old school.
 
 ##Usage##
 
