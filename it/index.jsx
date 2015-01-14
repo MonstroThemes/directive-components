@@ -2,6 +2,7 @@ var React = require('react');
 var Translator = require('directive-components/translator');
 var Show = require('directive-components/show').Component;
 var Hide = require('directive-components/hide').Component;
+var AddClass = require('directive-components/add-class').Component;
 var DisplayAll = require('directive-components/display-all').Component;
 var It = {
     mixins: [Translator],
@@ -40,6 +41,13 @@ var It = {
                 <DisplayAll the={this.props.displaysMany}>
                     {target}
                 </DisplayAll>
+            )
+        }
+        if('undefined' != typeof this.props.hasClass){
+            return (
+                <AddClass name={this.props.hasClass} {...this.props}>
+                    {target}
+                </AddClass>
             )
         }
 
