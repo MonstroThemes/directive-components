@@ -83,5 +83,6 @@ The keys of the object must be the strings used in the directive components, the
 
 * [Show](https://github.com/MonstroThemes/directive-components/tree/master/show) shows or hides components
 * [Hide](https://github.com/MonstroThemes/directive-components/tree/master/hide) hides or shows components
+* [AddClass](https://github.com/MonstroThemes/directive-components/tree/master/add-class) Adds classes conditionally
 * [DisplayAll](https://github.com/MonstroThemes/directive-components/tree/master/display-all) displays and array of items, such as posts on an archive
 * [It](https://github.com/MonstroThemes/directive-components/tree/master/it) combines all directives, so you don't have to import them individually. Arguably improves/decreases readability.
