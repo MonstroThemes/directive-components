@@ -11,11 +11,11 @@ once that's done, go crazy:
 
 ```jsx  
 <AddClass name="some-class" when="user is logged in">
-	<span>Logout</span>
+	<span>Your profile</span>
 </AddClass>
 
 <AddClass name="some-class" unless="user is logged in">
-	<a href="/login">Please login</a>
+	<span>Your profile</span>
 </AddClass>
 ```
 

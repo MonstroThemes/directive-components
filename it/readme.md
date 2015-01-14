@@ -30,11 +30,11 @@ var It = require('directive-components/it').Component;
 ## [AddClass](https://github.com/MonstroThemes/directive-components/tree/master/add-class/) ##
 ```jsx  
 <It hasClass="some-class" when="user is logged in">
-	<span>Logout</span>
+	<span>Your profile</span>
 </It>
 
 <It hasClass="some-class" unless="user is logged in">
-	<a href="/login">Please login</a>
+	<span>Your profile</span>
 </It>
 ```
 
