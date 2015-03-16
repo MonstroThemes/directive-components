@@ -1,4 +1,4 @@
-var React = require('react');
+var React = require('react/addons');
 var Translator = require('directive-components/translator');
 var Show = require('directive-components/show').Component;
 var Hide = require('directive-components/hide').Component;
